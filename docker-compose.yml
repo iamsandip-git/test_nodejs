@@ -6,7 +6,7 @@ services:
             - MYSQL_ROOT_PASSWORD=Test@12345
             - MYSQL_DATABASE=bookstore
             - MYSQL_USER=node_user
-            - 'MYSQL_PASSWORD=Node@123#'
+            - 'MYSQL_PASSWORD=NodePass@123#'
         container_name: mysql_container2
         image: 'mysql:8.0.34'
 
