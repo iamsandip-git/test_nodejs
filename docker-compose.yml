@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+    mysql-service:
+        environment:
+            - MYSQL_ROOT_PASSWORD=Test@12345
+            - MYSQL_DATABASE=bookstore
+            - MYSQL_USER=node_user
+            - 'MYSQL_PASSWORD=Node@123#'
+        container_name: mysql_container2
+        image: 'mysql:8.0.34'
+
+    node-app-service:
+        ports:
+            - '8000:3000'
+        build: .
+        container_name: node_app_container
