@@ -1,6 +1,7 @@
 version: '3.3'
 services:
     mysql-service:
+        command: mysqld --default-authentication-plugin=mysql_native_password
         environment:
             - MYSQL_ROOT_PASSWORD=Test@12345
             - MYSQL_DATABASE=bookstore
