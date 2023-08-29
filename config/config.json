@@ -1,0 +1,8 @@
+{
+  "db": {
+    "host": "db_service",
+    "user": "node_user",
+    "password": "NodePass@123#",
+    "database": "bookstore"
+  }
+}
