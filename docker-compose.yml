@@ -7,7 +7,7 @@ services:
             - MYSQL_DATABASE=bookstore
             - MYSQL_USER=node_user
             - 'MYSQL_PASSWORD=NodePass@123#'
-        container_name: mysql_container2
+        container_name: mysql_db_svc
         image: 'mysql:8.0.34'
 
     node-app-service:
