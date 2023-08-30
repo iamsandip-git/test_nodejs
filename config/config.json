@@ -1,6 +1,6 @@
 {
   "db": {
-    "host": "mysql_container2",
+    "host": "mysql-db-svc",
     "user": "node_user",
     "password": "NodePass@123#",
     "database": "bookstore"
