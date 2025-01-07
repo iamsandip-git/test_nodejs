@@ -18,5 +18,6 @@ INSERT INTO books (title, author, publication_year, genre)
 VALUES
   ('Book 1', 'Author 1', 2020, 'Fiction'),
   ('Book 2', 'Author 2', 2018, 'Mystery'),
-  ('Book 3', 'Author 3', 2015, 'Science Fiction');
+  ('Book 3', 'Author 3', 2015, 'Science Fiction')
+  ('Book 3', 'Author 4', 2017, 'Romance');
 
